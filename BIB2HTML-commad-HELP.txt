@@ -1,0 +1,1 @@
+bibtex2html.exe -d -r -noabstract -nokeywords MyBibList.bib
