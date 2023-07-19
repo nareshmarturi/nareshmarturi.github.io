@@ -7,7 +7,7 @@
 .example1 h3 
 {
 	font-size: 2em;
-	color: limegreen;
+	color: rgb(205, 94, 50);
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -27,7 +27,7 @@
 .example1 p 
 {
 	font-size: 1.1em;
-	color: rgb(184, 231, 210);
+	color: rgb(222, 59, 5);
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -41,7 +41,7 @@
 	/* Apply animation to this element */	
 	-moz-animation: example1 15s linear infinite;
 	-webkit-animation: example1 15s linear infinite;
-	animation: example1 20s linear infinite;
+	animation: example1 30s linear infinite;
 }
 /* Move it (define the animation) */
 @-moz-keyframes example1 {
