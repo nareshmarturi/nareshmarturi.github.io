@@ -81,3 +81,16 @@ and (max-device-width : 480px) {
 	}
 
 }
+
+@media only screen and (max-device-width : 960px) {
+
+    .example1 p {
+		width: 250%;
+		margin-bottom: 50px;
+		/* Apply animation to this element */	
+	-moz-animation: example1 10s linear infinite;
+	-webkit-animation: example1 10s linear infinite;
+	animation: example1 15s linear infinite;
+	}
+
+}
