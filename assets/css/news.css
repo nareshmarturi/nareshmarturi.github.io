@@ -1,6 +1,7 @@
 .example1 
 {
-	height: 50px;	
+	/* width:100px;
+	height: 50px;	 */
 	overflow: hidden;
 	position: relative;
 }
@@ -63,4 +64,20 @@
 		-webkit-transform: translateX(-100%); /* Firefox bug fix */
 		transform: translateX(-100%); 
 	}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .example1 p {
+		width: 190%;
+		margin-bottom: 50px;
+		/* Apply animation to this element */	
+	-moz-animation: example1 10s linear infinite;
+	-webkit-animation: example1 10s linear infinite;
+	animation: example1 10s linear infinite;
+	}
+
 }
