@@ -2501,9 +2501,9 @@
     }
 
     .iconcontact {
-        background-color: white;
-        border-radius: 30px;
-        padding: 15px;
+        background-color: rgb(101, 101, 100);
+        border-radius: 20px;
+        padding: 5px;
         vertical-align: top;
     }
 
@@ -2653,7 +2653,8 @@
     }
 
     .wrapper.style4 {
-        background-color: #303030;
+        /* background-color: #303030; */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/backgrounds/bgmap.png");
         color: #999;
         text-shadow: -1px -1px 0px #181818;
     }
